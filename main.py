@@ -19,14 +19,6 @@ def servepage2():
     print("someone visited /page2 route")
     return("someone visited /page2 route")
 
-@app.route('/add', methods = ['GET', 'POST'])
-def add():
-    print("someone visited /page2 route")
-    return("someone visited /page2 route")
-
-    
-
-
 
 #Running on port 5000
 if __name__ == '__main__':
